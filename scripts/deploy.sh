@@ -1,6 +1,6 @@
 #!/bin/bash
 REPOSITORY=/home/ec2-user/deploy-sample
-CURRENT_PID=$(pgrep -fl DeploySample | grep jar | awk '{print $1}')
+CURRENT_PID=$(pgrep -fl DeploySample | awk '{print $1}')
 
 if [ -z "$CURRENT_PID" ]; then
   echo "구동 중인 애플리케이션이 없습니다."
