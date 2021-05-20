@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProfileController {
     private final Environment environment;
 
-    @GetMapping
+    @GetMapping(value = "/profile")
     public String profile() {
         List<String> profiles = Arrays.asList(environment.getActiveProfiles());
         List<String> realProfiles = Arrays.asList("real", "real1", "real2");
