@@ -19,8 +19,8 @@ function find_idle_profile() {
     echo "${IDLE_PROFILE}"
 }
 
-function find_idle_port() {
-    IDLE_PROFILE=${find_idle_profile)
+function fine_idle_port() {
+    IDLE_PROFILE=$(find_idle_profile)
 
     if [ ${IDLE_PROFILE} == real1 ]
     then
