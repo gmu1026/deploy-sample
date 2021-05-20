@@ -9,6 +9,6 @@ public class HelloController {
 
     @GetMapping(value = "/")
     public String index() {
-        return INDEX_MSG + " Version 1.8";
+        return INDEX_MSG + " Version 1.9";
     }
 }
