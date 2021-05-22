@@ -1,5 +1,5 @@
 # DeploySample
-[![Build Status](http://cproduction.net/job/deploy-sample/badge/icon)](http://cproduction.net:8080/job/deploy-sample/)
+[![Build Status](https://cproduction.net:8080/buildStatus/icon?job=deploy-sample)](https://cproduction.net:8080/job/deploy-sample/)
 ## 1. 설명
 - CI/CD 환경 테스트를 위한 샘플 프로젝트
 ---
